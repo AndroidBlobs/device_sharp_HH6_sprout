@@ -1,0 +1,20 @@
+on fs
+    setprop persist.radio.skt_iot 1
+    setprop ro.product.odm.brand SHARP
+    setprop ro.product.odm.model FS8032
+    setprop persist.vendor.ims.no_stapa 1
+    setprop ro.product.first_api_level 27
+    setprop ro.product.vendor.brand SHARP
+    setprop ro.product.vendor.model FS8032
+    setprop ro.product.odm.name FS8032_00A0
+    setprop ro.product.odm.device HH6_sprout
+    setprop ro.product.odm.manufacturer SHARP
+    setprop ro.product.vendor.name FS8032_00A0
+    setprop ro.product.vendor.device HH6_sprout
+    setprop ro.product.vendor.manufacturer SHARP
+on post-fs
+    setprop persist.sys.security_enable false
+    setprop persist.radio.multisim.config ssss
+on fs
+	setprop ro.vendor.build.fingerprint SHARP/FS8032_00A0/HH6_sprout:10/QKQ1.190828.002/FS8032T0305Q:user/release-keys
+	setprop ro.odm.build.fingerprint SHARP/FS8032_00A0/HH6_sprout:10/QKQ1.190828.002/FS8032T0305Q:user/release-keys
